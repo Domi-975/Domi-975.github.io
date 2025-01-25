@@ -1,0 +1,36 @@
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* styles.css */
+
+
+.card {
+    width: 100%; /* todo el ancho disponible */
+    max-width: 350px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 1rem; /* Espaciado entre tarjetas */
+    overflow: hidden; /* Evita que el contenido se desborde */
+}
+
+/* la imagen ocupe todo el espacio de la tarjeta */
+.card-img-top {
+    width: 100%; /*  la imagen ocupa todo el ancho de la tarjeta */
+    height: 100%; /* la imagen ocupe todo el alto de la tarjeta */
+    object-fit: cover; /* la imagen cubra el área sin distorsionarse */
+}
+
+/* Opcional: Estilo adicional para las tarjetas */
+.card {
+    border: 1px solid #ddd; /* Añade un borde a las tarjetas */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de profundidad */
+}
+
+
+/* Justificar los párrafos */
+.text-justificado {
+    text-align: justify; /* Justifica el texto */
+    padding-left: 20px;
+}
+
